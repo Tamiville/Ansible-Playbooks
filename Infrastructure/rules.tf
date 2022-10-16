@@ -12,6 +12,7 @@ resource "azurerm_network_security_rule" "SSH" {
   network_security_group_name = azurerm_network_security_group.elite_devnsg.name
 }
 
+
 resource "azurerm_network_security_rule" "HTTP" {
   name                        = "HTTP"
   priority                    = 101
@@ -25,4 +26,5 @@ resource "azurerm_network_security_rule" "HTTP" {
   resource_group_name         = azurerm_resource_group.elite_general_network.name
   network_security_group_name = azurerm_network_security_group.elite_devnsg.name
 }
+
 

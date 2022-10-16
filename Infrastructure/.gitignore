@@ -5,3 +5,4 @@ terraform.tfstate.backup
 ansiblekey
 *.pub*
 
+
