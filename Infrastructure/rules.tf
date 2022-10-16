@@ -25,3 +25,4 @@ resource "azurerm_network_security_rule" "HTTP" {
   resource_group_name         = azurerm_resource_group.elite_general_network.name
   network_security_group_name = azurerm_network_security_group.elite_devnsg.name
 }
+
