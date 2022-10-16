@@ -1,0 +1,7 @@
+---
+all:
+  children:
+    server:
+      hosts:
+        dev:
+          ansible_host: 168.61.171.15
